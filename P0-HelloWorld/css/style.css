@@ -101,10 +101,10 @@ a {
 }
 
 .footer {
-  font-size: x-small;
+  font-size: small;
   padding:15px;
-  min-height:30px;
-  text-align:left;
+  min-height:20px;
+  text-align:center;
   width:50%;
   margin:15px auto;
   background-color:#34797F;
