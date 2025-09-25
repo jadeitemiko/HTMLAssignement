@@ -85,7 +85,36 @@ textarea {
    ========================================================================== */
 
 body {
- color: #16241A;
+ background-color: #16241A;
+}
+
+a {
+  color: inherit;
+}
+
+.centered-container {
+  width:70%;
+  text-align:center;
+  min-height:30px;
+  padding:15px;
+  margin:15px auto;
+}
+
+.footer {
+  font-size: x-small;
+  padding:15px;
+  min-height:30px;
+  text-align:left;
+  width:50%;
+  margin:15px auto;
+  background-color:#34797F;
+}
+
+.fokus {
+  border-color: #9AB1B3;
+  border-width: 15px;
+  border-style: solid;
+  padding:25px;
 }
 
 h1 {
