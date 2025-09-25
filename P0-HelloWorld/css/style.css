@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 62.5%;
   line-height: 1.4;
 }
 
@@ -85,47 +85,71 @@ textarea {
    ========================================================================== */
 
 body {
- background-color: #16241A;
+ background-color: #FFDBCF;
 }
 
 a {
   color: inherit;
 }
 
-.centered-container {
-  width:70%;
-  text-align:center;
-  min-height:30px;
-  padding:15px;
-  margin:15px auto;
+img {
+  border:0;
+  max-width: 100%;
+  height: auto;
 }
 
-.footer {
-  font-size: small;
-  padding:15px;
-  min-height:20px;
-  text-align:center;
-  width:50%;
-  margin:15px auto;
-  background-color:#34797F;
+.focus {
+
+}
+
+.centered-container { /* yttermåtten som ärvs av de andra typerna av containers */
+  max-width:70%;
+  min-height:3rem;
+  padding:1.5rem;
+  margin:1.5rem auto;
 }
 
 .fokus {
-  border-color: #9AB1B3;
-  border-width: 15px;
+  border-color: #0B4D42;
+  border-width: 1.5rem;
   border-style: solid;
-  padding:25px;
+  padding:2.5rem;
+  text-align:left;
+  font: 1.6rem/1.1 Calibri, Arial, sans-serif;
 }
 
+.footer {
+  font-size: 0.9rem;
+  font-family: Tahoma, sans-serif;
+  padding:1.5rem;
+  min-height:2rem;
+  text-align:center;
+  margin:1.5rem auto;
+  background-color:#D0D4B2;
+  max-width:50%;
+}
+
+h1, h2 {
+  color: #9E2351;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
 h1 {
-  font-size: large;
-  color: #BBF3FC;
-  font-family: sans-serif;
+  font: bold 2.2rem/1.2 Calibri, Arial, sans-serif;
+}
+
+h2 {
+  font: italic 1.8rem/1.2 Calibri, Arial, sans-serif;
 }
 
 p {
   font-family: sans-serif;
-  color: #F8BBFC;
+  color: #40262F;
+}
+
+em {
+  font-weight: bold;
+  color: #050917;
 }
 
 /* ==========================================================================
