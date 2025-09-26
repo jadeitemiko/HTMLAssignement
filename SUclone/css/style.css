@@ -49,14 +49,22 @@
   margin-left: auto;
 }
 
-.primary-header {
+.primary-header, .primary-footer {
   background-color: var(--color-su-primary);
   color: var(--color-text-su-inverted);
   width: 100%;
+  font: sans-serif;
 }
 
 .logocontainer .su-logo-primary {
   margin-right: 2.1rem;
   height: 45px;
   filter: invert(100%) brightness(100%);
+}
+
+.primary-footer {
+  background: var(--color-su-primary);
+  color: var(--color-text-su-inverted);
+  padding-bottom: 0.75rem;
+  padding-top: 5rem;
 }
