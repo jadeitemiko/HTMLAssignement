@@ -69,8 +69,7 @@ body {
 
 .banner-inner {
   display: flex;
-  align-items: flex-end;
-  padding-bottom: 0rem;
+  position: relative;
   max-width:100%;
 }
 
@@ -96,18 +95,18 @@ body {
 }
 
 .kolumn {
-  padding: 2rem;
-  margin:8rem;
   position:absolute;
-  min-height: 1px;
   z-index:800;
+  padding: 2rem;
   display: block;
-  bottom:40px;
-  left:30px;
-  wrap-option:wrap;
+  top:20.3rem;
+  left:4.5rem;
+  max-width:450px;
 }
 
 .banner-text {
+  padding: 2.4rem;
+  wrap-option:wrap;
   background: var(--color-su-primary-darker-trans-80);
   color: var(--color-su-secondary-light);
 }
