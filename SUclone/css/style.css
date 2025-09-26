@@ -22,6 +22,7 @@
   right: 0;
   left: 0;
   z-index: 1030;
+  height:50px;
 }
 
 #top-spacer {
@@ -42,18 +43,17 @@
 }
 
 .logocontainer {
-  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.primary-header, .primary-footer {
+.primary-header {
   background-color: var(--color-su-primary);
   color: var(--color-text-su-inverted);
   width: 100%;
-  font: sans-serif;
+  font-family: sans-serif;
 }
 
 .logocontainer .su-logo-primary {
@@ -63,8 +63,15 @@
 }
 
 .primary-footer {
-  background: var(--color-su-primary);
+  background-color: var(--color-su-primary);
   color: var(--color-text-su-inverted);
   padding-bottom: 0.75rem;
-  padding-top: 5rem;
+  padding-top: 1rem;
+  font-family: sans-serif;
+  width:100%;
+}
+
+.primary-footer .center-text {
+  text-align: center;
+  font-size: small;
 }
