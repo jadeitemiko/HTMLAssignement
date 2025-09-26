@@ -16,8 +16,7 @@ body {
 :root {
   --color-su-primary: #002f5f;
   --color-su-primary-darker: #00264c;
-  --color-su-primary-on-hover: #597898;
-  --color-su-secondary: #acdee6;
+  --color-su-secondary-light: #c4e8ed;
   --color-text-su-inverted: #fff;
   --color-su-primary-darker-trans-80: rgba(0, 38, 76, 0.8);
 }
@@ -81,12 +80,12 @@ body {
   color: var(--color-text-su-inverted);
   padding-bottom: 0.75rem;
   padding-top: 1rem;
-  font-family: sans-serif;
 }
 
 .primary-footer .center-text {
   text-align: center;
   font-size: small;
+  font-family: sans-serif;
 }
 
 .banner-inner .mainpic{
@@ -96,8 +95,19 @@ body {
   padding: 0;
 }
 
-.banner-text {
-  padding: 1rem;
-  background: var(--color-su-primary-darker-trans-80);
+.kolumn {
+  padding: 2rem;
+  margin:8rem;
+  position:absolute;
+  min-height: 1px;
+  z-index:800;
   display: block;
+  bottom:40px;
+  left:30px;
+  wrap-option:wrap;
+}
+
+.banner-text {
+  background: var(--color-su-primary-darker-trans-80);
+  color: var(--color-su-secondary-light);
 }
